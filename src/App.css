@@ -1,93 +1,3 @@
-/*
-:root {
-  --font-primary: "Oswald", sans-serif;
-  --font-secondary: "Nunito", sans-serif;
-
-  --color-primary: #8c52ff;
-  --color-secondary: #7371fc;
-  --color-tertiary: #cdc1ff;
-
-  --text-dark: #000000;
-  --text-light: #ffffff;
-}
-
-body {
-  font-family: var(--font-secondary);
-  color: var(--text-dark);
-}
-
-/* Classi di utility per i font 
-.font-title {
-  font-family: var(--font-primary);
-}
-
-.font-body {
-  font-family: var(--font-secondary);
-}
-
-/* Stili per bottoni e altri elementi comuni 
-.btn-primary {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  font-family: var(--font-primary);
-}
-
-.btn-primary:hover {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-}
-
-.profile-avatar {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 3px solid var(--color-tertiary);
-}
-
-.dot {
-  height: 12px;
-  width: 12px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0 2px;
-}
-
-.dot.filled {
-  background-color: var(--color-primary);
-}
-
-/* Select user modal css 
-
-.user-card {
-  cursor: pointer;
-  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
-}
-
-.user-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.user-card.selected {
-  box-shadow: 0 0 0 3px var(--color-primary);
-  border-color: var(--color-primary);
-}
-
-.user-badge-avatar {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  margin-right: 8px;
-  margin-bottom: 5px;
-}
-
-Aggiungi questo al tuo CSS per nascondere la freccetta del dropdown
-.no-caret::after {
-  display: none !important;
-}
-*/
-
 body {
   font-family: "Nunito", sans-serif;
   color: #000000;
@@ -131,7 +41,6 @@ body {
   text-align: center;
 }
 
-/* Centra e adatta il testo */
 .dropdown-message .text-wrapper {
   display: inline-block;
   max-width: 100%;
@@ -143,7 +52,6 @@ body {
   font-weight: 600;
 }
 
-/* Responsive migliorato */
 @media (max-width: 768px) {
   .full-width-dropdown {
     font-size: 0.95rem;
@@ -255,9 +163,9 @@ body {
 }
 
 .accordion_width {
-  max-width: 90vw; /* larghezza massima uniforme */
-  width: 100%; /* adattabile su schermi piccoli */
-  margin: 0 auto; /* centrato orizzontalmente */
+  max-width: 90vw;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .badge-wrapper {
@@ -269,7 +177,6 @@ body {
   display: flex;
 }
 
-/* Colore per la tab attiva */
 .nav-tabs .nav-link.active {
   background-color: #8c52ff;
   color: white !important;
@@ -277,7 +184,6 @@ body {
   font-weight: bold;
 }
 
-/* Colore per le tab inattive */
 .nav-tabs .nav-link {
   background-color: white;
   color: #8c52ff;
@@ -285,7 +191,6 @@ body {
   transition: 0.2s ease;
 }
 
-/* Hover per le tab */
 .nav-tabs .nav-link:hover {
   background-color: #f5f1ff;
   color: #8c52ff;
